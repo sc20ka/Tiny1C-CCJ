@@ -1,0 +1,105 @@
+======================== DDR DMA USAGE INFO ========================
+OOC ddr address : 0x0, len : 0xd9c8
+B shutter ddr address : 0xe000, len : 0x18000
+K ddr address : 0x26000, len : 0x18000
+DPC ddr address : 0x3e000, len : 0x1800
+TNR ddr address : 0x40000, len : 0x18000
+RMVCOVER ddr address : 0x58000,len : 0x18000
+OSD1 ddr address : 0x0,len : 0x0
+OSD2 ddr address : 0x0,len : 0x0
+ISP1 Stream[0] ddr address : 0x3800000,len : 0xc000
+ISP2 Stream[0] ddr address : 0x0,len : 0x0
+Share Operator0 ddr address : 0x70000, len : 0x18000
+Share Operator1 ddr address : 0x88000, len : 0x18000
+Share Operator2 ddr address : 0xa0000, len : 0x18000
+Share Operator3 ddr address : 0xb8000, len : 0x18000
+ddr current address : 0xd0000
+
+Current Gain : 1, Current Temp Area : 1
+
+======================== FLASH USAGE INFO ========================
+Flash header type size: 0x270
+Flash header length: 0x264
+Flash wExistFlag: 0x5566, wDefaultCfgExistFlag: 0x33ee, wHeaderModeFlag: 0xf
+
+Property Page flash address : 0x41000 - 0x3c7000, length : 0x1000
+Product Info flash address : 0x42000 - 0xffffffff, length : 0x1000
+Gamma flash address : 0x43000 - 0xffffffff, length : 0x800
+DeadPix flash address : 0x44000 - 0xffffffff, length : 0x1800
+Error Log Flash address : 0x6c000 - 0xffffffff, length : 0x1800
+
+------------------------------------ Low  Gain ------------------------------------
+Temp Area[0] : [120d, 15ae]
+Temp Area[1] : [14f4, 1e65]
+Temp Area[2] : [1ce0, 2434]
+
+UserCfg flash address : 0x71000 - 0x3c8000, length : 0x3000
+
+SmartData - TempArea 0 flash address : 0x77000 - 0xffffffff, length : 0x100
+SmartData - TempArea 1 flash address : 0x78000 - 0xffffffff, length : 0x100
+SmartData - TempArea 2 flash address : 0x79000 - 0xffffffff, length : 0x100
+
+OOC - TempArea 0 flash address : 0x7d000 - 0xffffffff, length : 0xd9c8
+OOC - TempArea 1 flash address : 0x8b000 - 0xffffffff, length : 0xd9c8
+OOC - TempArea 2 flash address : 0x99000 - 0xffffffff, length : 0xd9c8
+
+TPD KT flash address : 0xd1000 - 0x3ce000, length : 0x962
+TPD BT flash address : 0xd2000 - 0x3cf000, length : 0x962
+TPD Nuc-T flash address : 0xd3000 - 0x3d0000, length : 0x4000
+TPD TempParam flash address : 0xd7000 - 0x3d4000, length : 0x30
+
+------------------------------------ High Gain ------------------------------------
+Temp Area[0] : [120d, 15ae]
+Temp Area[1] : [14f4, 1e65]
+Temp Area[2] : [1ce0, 2434]
+
+UserCfg flash address : 0x74000 - 0x3cb000, length : 0x3000
+
+SmartData - TempArea 0 flash address : 0x7a000 - 0xffffffff, length : 0x100
+SmartData - TempArea 1 flash address : 0x7b000 - 0xffffffff, length : 0x100
+SmartData - TempArea 2 flash address : 0x7c000 - 0xffffffff, length : 0x100
+
+OOC - TempArea 0 flash address : 0xa7000 - 0xffffffff, length : 0xd9c8
+OOC - TempArea 1 flash address : 0xb5000 - 0xffffffff, length : 0xd9c8
+OOC - TempArea 2 flash address : 0xc3000 - 0xffffffff, length : 0xd9c8
+
+TPD KT flash address : 0xd8000 - 0x3d5000, length : 0x962
+TPD BT flash address : 0xd9000 - 0x3d6000, length : 0x962
+TPD Nuc-T flash address : 0xda000 - 0x3d7000, length : 0x4000
+TPD TempParam flash address : 0xde000 - 0x3db000, length : 0x30
+
+-----------------------------------------------------------------------------------
+
+RMVCOVER flash address : 0xdf000 - 0xffffffff, length : 0x18000
+
+Normal K - TempArea 0 Cfg flash address : 0xf7000 - 0xffffffff, length : 0x18000
+Normal K - TempArea 1 Cfg flash address : 0x10f000 - 0xffffffff, length : 0x18000
+Normal K - TempArea 2 Cfg flash address : 0x127000 - 0xffffffff, length : 0x18000
+
+--- Tecless B Facotrs, Temp Area 0 ---
+Tecless B Factors 0 Cfg flash address :  0x13f000 - 0xffffffff, length : 0x30000
+Tecless B Factors 1 Cfg flash address :  0x16f000 - 0xffffffff, length : 0x30000
+Tecless B Factors 2 Cfg flash address :  0x19f000 - 0xffffffff, length : 0x30000
+Tecless B Factors 3 Cfg flash address :  0x1cf000 - 0xffffffff, length : 0x30000
+
+--- Tecless B Facotrs, Temp Area 1 ---
+Tecless B Factors 0 Cfg flash address :  0x1ff000 - 0xffffffff, length : 0x30000
+Tecless B Factors 1 Cfg flash address :  0x22f000 - 0xffffffff, length : 0x30000
+Tecless B Factors 2 Cfg flash address :  0x25f000 - 0xffffffff, length : 0x30000
+Tecless B Factors 3 Cfg flash address :  0x28f000 - 0xffffffff, length : 0x30000
+
+--- Tecless B Facotrs, Temp Area 2 ---
+Tecless B Factors 0 Cfg flash address :  0x2bf000 - 0xffffffff, length : 0x30000
+Tecless B Factors 1 Cfg flash address :  0x2ef000 - 0xffffffff, length : 0x30000
+Tecless B Factors 2 Cfg flash address :  0x31f000 - 0xffffffff, length : 0x30000
+Tecless B Factors 3 Cfg flash address :  0x34f000 - 0xffffffff, length : 0x30000
+
+Tecless K Factors 0 Cfg flash address :  0x37f000 - 0x3dc000, length : 0x18000
+Tecless K Factors 1 Cfg flash address :  0x397000 - 0x3f4000, length : 0x18000
+Tecless K Factors 2 Cfg flash address :  0x3af000 - 0x40c000, length : 0x18000
+
+----------   OSD  ----------
+OSD flash address : 0x424000 - 0xffffffff, length : 0x300000
+OSD interlace flash address : 0xffffffff - 0xffffffff, length : 0xffffffff
+
+----------------------------
